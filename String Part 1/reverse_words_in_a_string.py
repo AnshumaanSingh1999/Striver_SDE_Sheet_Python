@@ -1,10 +1,8 @@
 #Accepted
 def reversewords(s):
     a=[]
-    a=s.split(' ')
-    print(s)
-    print(a)
-    c=''
+    a=s.split(" ")
+    c=""
     i=len(a)-1
     while(i>=0):
         if(len(a[i])==0):
